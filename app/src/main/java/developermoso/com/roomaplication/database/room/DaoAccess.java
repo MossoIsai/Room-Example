@@ -12,6 +12,7 @@ import developermoso.com.roomaplication.database.entitys.Movie;
 
 @Dao
 public interface DaoAccess {
+    //query datababase
 
     @Insert
     void insertOnlySingleMovie(Movie movie);
